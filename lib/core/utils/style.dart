@@ -44,4 +44,11 @@ abstract class AppStyle {
     fontFamily: 'Inter',
     height: 0,
   );
+  static const TextStyle style22bold = TextStyle(
+    fontSize: 22,
+    fontWeight: FontWeight.w700,
+    color: Colors.black,
+    fontFamily: 'Inter',
+    height: 0,
+  );
 }
