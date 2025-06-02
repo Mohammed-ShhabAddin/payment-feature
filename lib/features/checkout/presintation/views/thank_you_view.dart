@@ -11,6 +11,7 @@ class ThankYouView extends StatelessWidget {
     return Scaffold(
       appBar: buildAPPBar(
         title: "",
+        context: context,
       ),
       body: Transform.translate(
         offset: const Offset(0, -16),

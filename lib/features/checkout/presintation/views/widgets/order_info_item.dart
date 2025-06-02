@@ -13,12 +13,12 @@ class OrderInfoItem extends StatelessWidget {
       children: [
         Text(
           title,
-          style: AppStyle.style18,
+          style: AppStyle.style18(context),
         ),
         const Spacer(),
         Text(
           value,
-          style: AppStyle.style18,
+          style: AppStyle.style18(context),
         ),
       ],
     );

@@ -15,14 +15,14 @@ class PaymentItemInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
       Text(
-        'Date:',
+        title,
         textAlign: TextAlign.center,
-        style: AppStyle.style18,
+        style: AppStyle.style18(context),
       ),
       Text(
-        ' 12/12/2023',
+        value,
         textAlign: TextAlign.center,
-        style: AppStyle.styleBold18,
+        style: AppStyle.styleBold18(context),
       ),
     ]);
   }
